@@ -100,9 +100,11 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   font-size: 18px;
   opacity: 0.75;
 }
-nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
+nav.navbar .navbar-nav a.nav-link.navbar-link:hover {
+  opacity: 1;    
+}
 nav.navbar .navbar-nav a.nav-link.navbar-link.active {
-    opacity: 1;
+  border-bottom: 4px solid #ffff ;
 }
 span.navbar-text {
     display: flex;
@@ -181,7 +183,7 @@ span.navbar-text {
 }
 nav.navbar .navbar-toggler:active,
 nav.navbar .navbar-toggler:focus {
-	outline: none;
+	  outline: none;
     box-shadow: none;
 }
 nav.navbar .navbar-toggler-icon {
