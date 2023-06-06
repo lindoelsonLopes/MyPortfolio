@@ -80,6 +80,10 @@ nav.navbar {
   z-index: 9999;
   transition:  0.32s ease-in-out;
 }
+.me-auto.navbar-nav {
+  display: flex;
+  flex-direction: row;
+}
 nav.navbar.scrolled {
   padding: 0px 0;
   background-color: #07021f;
