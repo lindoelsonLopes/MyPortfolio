@@ -128,7 +128,7 @@ span.navbar-text {
     background-color: #ffffff;
     border-radius: 50%;
     transform: scale(0);
-	transition: 0.3s ease-in-out;
+	  transition: 0.3s ease-in-out;
 }
 .social-icon a:hover::before {
     transform: scale(1);
@@ -290,4 +290,59 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     100% {
         transform: translateY(-20px);
     }
+}
+
+/* --------------- Skills --------------- */
+
+.skill {
+  padding: 0 0 50px 0;
+  position: relative;
+}
+
+.skill-bx {
+  background: #151515;
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+  margin-top: -60px;
+}
+
+.skill-bx h2 {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.skill-bx p {
+  color: #B8B8B8; 
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.7em;
+  margin: 14px 0 75px 0;
+  text-align: justify;
+}
+
+.skill-slider {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.skill-slider .item img {
+  width: 50%;
+  margin: a auto 15px auto;
+}
+
+.skill-slider .item h5 {
+  color: #B8B8B8; 
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+
+.background-image-left {
+  top: 50%;
+  position: absolute;
+  bottom: 0;
+  width: 40%;
+  z-index: 4;
 }
